@@ -17,6 +17,9 @@ public class ConsultaIBGE {
     // URL base da API do IBGE para distritos
     private static final String DISTRITOS_API_URL = "https://servicodados.ibge.gov.br/api/v1/localidades/distritos/";
 
+    public ConsultaIBGE(HttpURLConnection mockConnection) {
+    }
+
     /**
      * Método para consultar informações de um estado específico.
      *
